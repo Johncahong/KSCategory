@@ -1,0 +1,38 @@
+{
+  "name": "KSCategory",
+  "version": "0.1.0",
+  "summary": "A short description of KSCategory.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/johncahong/KSCategory",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "johncahong": "305455947@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/johncahong/KSCategory.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "public_header_files": "KSCategory/Classes/KSCategory.h",
+  "source_files": "KSCategory/Classes/*",
+  "subspecs": [
+    {
+      "name": "UIKit",
+      "subspecs": [
+        {
+          "name": "UIButton",
+          "source_files": "KSCategory/Classes/UIKit/UIButton/**/*"
+        },
+        {
+          "name": "UIControl",
+          "source_files": "KSCategory/Classes/UIKit/UIControl/**/*"
+        }
+      ]
+    }
+  ]
+}
